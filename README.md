@@ -56,6 +56,8 @@ We've created a series of tutorials at [makeitopen.com](http://makeitopen.com/) 
 5. **Import sample data** (the local Parse Server should be running):
 
   ```
+  $ sudo npm install -g parse-server mongodb-runner
+  $ mongodb-runner start
   $ npm run import-data
   ```
 
